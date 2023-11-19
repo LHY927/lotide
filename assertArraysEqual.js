@@ -1,20 +1,24 @@
 const eqArrays = function (actual, expected) {
     let flag = true;
     if (actual.length !== expected.length) {
-      flag = false;
+      return false;
     }
     for (let i = 0; i < actual.length; i++) {
       if (actual[i] !== expected[i]) {
         flag = false;
       }
     }
-    if (flag === false){
-        console.log(`❌Assertion failed: ${actual} !== ${expected}`);
-    }else{
+    return flag;
+  };
+
+const assertArraysEqual = function(actual, expected){
+    let flag = eqArrays(actual,expected);
+    if (flag === true){
         console.log(`✅Assertion passed: ${actual} === ${expected}`);
+    }else{
+        console.log(`❌Assertion failed: ${actual} !== ${expected}`);
     }
 }
-
-eqArrays([1,2,3],[1,2,3]);
-eqArrays([1,2,'3'],[1,2,3]);
-eqArrays(['a','b','c'],['a','b','c']);
+assertArraysEqual([1, 2, 3], [1, 2, 3]);
+assertArraysEqual([1, 2, "3"], [1, 2, 3]);
+assertArraysEqual(["a", "b", "c"], ["a", "b", "c"]);
