@@ -1,9 +1,8 @@
-const tail = function (array){
-    let tail = [];
-    if (array.length <= 1){
-        tail = [];
-    }else{
-        tail = array.slice(1);
-    }
-    return tail;
+const assertEqual = require('./assertEqual');
+
+
+const tail = function(input){
+    return input.slice(1);
 }
+
+module.exports = tail;
