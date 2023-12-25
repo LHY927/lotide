@@ -10,13 +10,4 @@ const countLetters = function(text){
     return result;
 }
 
-const assertEqual = function(actual, expected) {
-    if (actual === expected) {
-      console.log(`✅✅✅Assertion Paased: ${actual} === ${expected}`);
-    } else {
-      console.log(`🛑🛑🛑Assertion Failed: ${actual} !== ${expected}`);
-    }
-  };
-  
-  // TEST CODE
-  console.log(countLetters("Listhouse Labs"))
+module.exports = countLetters;
