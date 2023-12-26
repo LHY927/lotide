@@ -1,3 +1,4 @@
+// TEST CODE for letterPositions.js
 const assert = require('chai').assert;
 const letterPositions = require('../letterPositions');
 const assertObjectsEqual = require('../assertObjectsEqual');

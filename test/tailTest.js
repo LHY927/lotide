@@ -1,3 +1,4 @@
+// TEST CODE for tail.js
 const assert = require('chai').assert;
 const tail   = require('../tail');
 const assertArraysEqual = require('../assertArraysEqual')

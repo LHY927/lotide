@@ -1,3 +1,4 @@
+// TEST CODE for map.js
 const assert = require('chai').assert;
 const map = require('../map');
 const assertArraysEqual = require('../assertArraysEqual');
