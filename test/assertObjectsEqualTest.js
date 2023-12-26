@@ -10,7 +10,7 @@ describe("#assertObjectsEqual", () => {
   it("returns true for { color: 'red', size: 'medium'}, { size: 'medium', color: 'red' }", () => {
     assert.isTrue(assertObjectsEqual(shirtObject , anotherShirtObject));
   });
-  it("returns 'false' for ['Listhouse Labs'], ['Listhouse Labs', 'Bootcamp']", () => {
+  it("returns 'false' for { color: 'red', size: 'medium'}, { size: 'medium', color: 'red', sleeveLength: 'long'}", () => {
     assert.isFalse(assertObjectsEqual(shirtObject , longSleeveShirtObject)); 
   });
 });
