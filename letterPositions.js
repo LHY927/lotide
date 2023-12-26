@@ -1,12 +1,15 @@
 
 const letterPositions = function(sentence) {
     const results = {};
-    // logic to update results here
+    // loop letters in the array
     for(let i = 0; i < sentence.length; i++){
+        // skip spaces
         if(sentence[i] != ' '){
             if(results[sentence[i]]){
+                // if there have no record for the letter, then add it to the result object
                 results[sentence[i]].push(i);
             }else{
+                // otherwise update the count of the letter
                 results[sentence[i]] = [i];
             }
         }
@@ -14,5 +17,5 @@ const letterPositions = function(sentence) {
     return results;
   };
 
-  console.log(letterPositions("lighthouse in the house"))
+  module.exports = letterPositions;
  
