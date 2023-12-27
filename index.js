@@ -12,6 +12,7 @@ const findKeyByValue = require('./findKeyByValue');
 const flatten = require('./flatten');
 const head = require('./head');
 const tail = require('./tail');
+const tail = require('./tail');
 
 
 module.exports = {

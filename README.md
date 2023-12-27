@@ -6,17 +6,17 @@ A mini clone of the [Lodash](https://lodash.com) library.
 
 **_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
 
-This project was created and published by me as part of my learnings at Lighthouse Labs. 
+This project was created and published by LHY927 as part of my learnings at Lighthouse Labs. 
 
 ## Usage
 
 **Install it:**
 
-`npm install @username/lotide`
+`npm install @LHY927/lotide`
 
 **Require it:**
 
-`const _ = require('@username/lotide');`
+`const _ = require('@LHY927/lotide');`
 
 **Call it:**
 
@@ -26,6 +26,6 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function1(...)`: description
-* `function2(...)`: description
-* `function3(...)`: description
+* `function1(assertArraysEqual)`: Returns whether two arrays are same and log the result.
+* `function2(assertEqual)`: Returns whether two value are same and log the result.
+* `function3(assertObjectsEqual)`: Returns whether two objects are same and log the result.
