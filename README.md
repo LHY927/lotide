@@ -37,3 +37,5 @@ The following functions are currently implemented:
 * `function9(findKeyByValue)`: Finding the key within an object according to the value of it.
 * `function10(flatten)`: Flatten multi-dimension array into a one-dimension array.
 * `function11(head)`: Return the first variable of an array.
+* `function12(letterPositions)`: Flatten multi-dimension array into a one-dimension array.
+* `function13(map)`: Return the first variable of an array.
