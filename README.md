@@ -33,3 +33,7 @@ The following functions are currently implemented:
 * `function5(countOnly)`: Count the number of letters within a specific set and return as an object.
 * `function6(eqArrays)`: Returns whether two arrays are same.
 * `function7(eqObjects)`: Returns whether two objects are same.
+* `function8(findKey)`: Finding the key within an object according to the result returned by the callback function.
+* `function9(findKeyByValue)`: Finding the key within an object according to the value of it.
+* `function10(flatten)`: Flatten multi-dimension array into a one-dimension array.
+* `function11(head)`: Return the first variable of an array.
