@@ -1,4 +1,9 @@
-
+/**
+ * Return the positions of letters in a string as an object.
+ *
+ * @param {String} sentence The target string.
+ * @return {Object} The positions of letters in a string as an object.
+ */
 const letterPositions = function(sentence) {
     const results = {};
     // loop letters in the array

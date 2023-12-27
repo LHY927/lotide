@@ -38,4 +38,8 @@ The following functions are currently implemented:
 * `function10(flatten)`: Flatten multi-dimension array into a one-dimension array.
 * `function11(head)`: Return the first variable of an array.
 * `function12(letterPositions)`: Flatten multi-dimension array into a one-dimension array.
-* `function13(map)`: Return the first variable of an array.
+* `function13(map)`: Map an array with the rules defined by the callback function.
+* `function12(letterPositions)`: Flatten multi-dimension array into a one-dimension array.
+* `function13(map)`: Map an array with the rules defined by the callback function.
+* `function14(middle)`: Return the variable in the middle of the array, return two values if the array have an even length.
+* `function15(tail)`: Return the last variable of the array.

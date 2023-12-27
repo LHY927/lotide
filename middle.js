@@ -1,3 +1,9 @@
+/**
+ * Return the variable in the middle of the array, return two values if the array have an even length.
+ *
+ * @param {Array} arr The target array.
+ * @return {Array} The middle value, length 1 if target array is odd length, 2 if even length.
+ */
 const middle = function(arr){
     let middleArr = [];
     if(arr.length>2){
