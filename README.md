@@ -29,3 +29,7 @@ The following functions are currently implemented:
 * `function1(assertArraysEqual)`: Returns whether two arrays are same and log the result.
 * `function2(assertEqual)`: Returns whether two value are same and log the result.
 * `function3(assertObjectsEqual)`: Returns whether two objects are same and log the result.
+* `function4(countLetters)`: Count the number of letters and return as an object.
+* `function5(countOnly)`: Count the number of letters within a specific set and return as an object.
+* `function6(eqArrays)`: Returns whether two arrays are same.
+* `function7(eqObjects)`: Returns whether two objects are same.
