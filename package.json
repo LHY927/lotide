@@ -1,6 +1,6 @@
 {
   "name": "@haiyueliu/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Test lotide package for LHL assignment",
   "main": "index.js",
   "directories": {
