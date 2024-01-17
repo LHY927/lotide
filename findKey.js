@@ -12,7 +12,6 @@ const findKey = function (object1, callback) {
       return key;
     }
   }
-  return undefined;
 };
 
 module.exports = findKey;
