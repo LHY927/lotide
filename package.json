@@ -2,7 +2,7 @@
   "name": "@haiyueliu/lotide",
   "version": "1.0.1",
   "description": "Test lotide package for LHL assignment",
-  "main": "assertEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
