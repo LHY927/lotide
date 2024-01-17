@@ -6,16 +6,15 @@
  * @return {Boolean} return ture if two params are same, otherwise return false.
  */
 const eqArrays = function (actual, expected) {
-  let flag = true;
   if (actual.length !== expected.length) {
     return false;
   }
   for (let i = 0; i < actual.length; i++) {
     if (actual[i] !== expected[i]) {
-      flag = false;
+      return false;
     }
   }
-  return flag;
+  return true;
 };
 
 module.exports = eqArrays;
