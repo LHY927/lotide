@@ -1,5 +1,3 @@
-const head   = require('./head');
-const tail   = require('./tail');
 const assertArraysEqual = require('./assertArraysEqual');
 const assertEqual = require('./assertEqual');
 const assertObjectsEqual = require('./assertObjectsEqual');
